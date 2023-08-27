@@ -1,3 +1,37 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.button-primary,
+.button-secondary,
+.button-warning {
+  @apply p-1 px-3 rounded-md text-white;
+}
+
+.button-primary {
+  @apply bg-indigo-500;
+}
+
+.button-primary:hover {
+  @apply bg-indigo-600;
+}
+
+.button-secondary {
+  @apply bg-gray-500;
+}
+
+.button-secondary:hover {
+  @apply bg-gray-600;
+}
+
+.button-warning {
+  @apply bg-yellow-500;
+}
+
+.button-warning:hover {
+  @apply bg-yellow-600;
+}
+
+.close-button {
+  @apply float-right text-2xl;
+}

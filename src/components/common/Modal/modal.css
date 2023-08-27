@@ -1,0 +1,15 @@
+.modalContainer {
+  @apply fixed w-screen h-screen bg-black/80 flex justify-center items-center;
+}
+
+.modal {
+  @apply relative w-full lg:w-1/3 h-fit m-3 bg-white rounded-lg;
+}
+
+.head {
+  @apply p-3 text-xl;
+}
+
+.body {
+  @apply p-3;
+}
