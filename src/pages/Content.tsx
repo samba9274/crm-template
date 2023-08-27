@@ -1,7 +1,7 @@
-export function Admin() {
+export function Content() {
     return (
       <h1 className="text-3xl font-bold underline">
-        Hello Admin!
+        Hello Content!
       </h1>
     )
   }
