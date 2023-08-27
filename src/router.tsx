@@ -1,7 +1,6 @@
-
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import { Admin } from '../pages/Admin';
-import { Content } from '../pages/Content';
+import { Admin } from "./pages/admin";
+import { Root } from "./pages/root";
 
 const router = createBrowserRouter([
   {
@@ -10,11 +9,11 @@ const router = createBrowserRouter([
   },
   {
     path: "/",
-    element: <Content />,
+    element: <Root />,
   },
 ]);
 
-export const  Router = () => (
+export const Router = () => (
   <div>
     <RouterProvider router={router} />
   </div>
